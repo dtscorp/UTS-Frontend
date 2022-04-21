@@ -1,0 +1,38 @@
+.container {
+  margin: 5rem auto;
+}
+
+.globals {
+  text-align: center;
+}
+
+.globals__title {
+  margin-bottom: 1rem;
+  font-size: 2.44rem;
+  color: #06d6a0;
+}
+
+.globals__subtitle {
+  color: #073b4c;
+  margin-bottom: 1rem;
+  font-size: 1.59rem;
+}
+
+.global__container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .global__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px;
+  }
+}

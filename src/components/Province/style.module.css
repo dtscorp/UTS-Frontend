@@ -1,0 +1,49 @@
+.container {
+  margin: 5rem auto;
+  padding: 10%;
+}
+.province {
+  text-align: center;
+}
+.province__title {
+  margin-bottom: 1rem;
+  font-size: 2.44rem;
+  color: #06d6a0;
+}
+.province__subtitle {
+  color: #118ab2;
+  margin-bottom: 1rem;
+  font-size: 1.59rem;
+}
+table,
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 50rem;
+}
+th,
+td {
+  padding: 15px;
+}
+th {
+  color: #06d6a0;
+}
+.province__container {
+  overflow-x: auto;
+}
+@media (min-width: 768px) {
+  .province__container {
+    padding: 0 10% 0 10%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    flex-basis: 25%;
+    padding: 1rem;
+  }
+}
